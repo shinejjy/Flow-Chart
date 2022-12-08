@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T16:24:11.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.1" etag="ijIaXDbzu6fhVAh8d4h5" type="github"><diagram id="iycSTK2wFRMg-VTzBwKd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T16:28:15.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.1" etag="SNgbd4RZS7dDh4FBt5Gj" type="github">
+  <diagram id="88f-QbOVtdxMXCRH5EP6" name="第 1 页">
+    <mxGraphModel dx="942" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qtLn1t8nXpcTE80C41Ci-14" value="Wall&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLn1t8nXpcTE80C41Ci-15" value="+ rect  墙体碰撞体&#xa;+ image  墙体贴图" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="qtLn1t8nXpcTE80C41Ci-14">
+          <mxGeometry y="26" width="210" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLn1t8nXpcTE80C41Ci-18" value="DynamicWall" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="210" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLn1t8nXpcTE80C41Ci-19" value="+ index  动态图当前索引&#xa;+ update_time  动态刷新计时器&#xa;+ space_time  动态刷新间隔&#xa;+ image  当前贴图&#xa;+ images  总贴图列表&#xa;+ len  贴图总数量" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="qtLn1t8nXpcTE80C41Ci-18">
+          <mxGeometry y="26" width="210" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLn1t8nXpcTE80C41Ci-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qtLn1t8nXpcTE80C41Ci-18">
+          <mxGeometry y="140" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLn1t8nXpcTE80C41Ci-21" value="+updates()  更新贴图" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="qtLn1t8nXpcTE80C41Ci-18">
+          <mxGeometry y="148" width="210" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
