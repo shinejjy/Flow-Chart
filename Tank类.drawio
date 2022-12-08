@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T15:35:17.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.1" etag="ELvQhxjJ-R9-F_KifDRs" type="github"><diagram id="nu2q5wNVKWWKbhHsI26m">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T16:14:29.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.1" etag="WL4Q1MoKtUZ6vuAoJHIC" type="github">
+  <diagram id="EKAWYOUytsTi9JNAZNzG" name="第 1 页">
+    <mxGraphModel dx="1346" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-1" value="Tank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="340" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-2" value="+ initial_position  坦克初始位置&#xa;+ rect  坦克碰撞体&#xa;+ old_topleft  坦克旧的位置（为了处理碰撞）&#xa;+ dir  坦克方向&#xa;+ dir_lst  坦克方向图片切换索引列表&#xa;+ fire_space  开火间隔&#xa;+ fire_time  开火计时器&#xa;+ ice_faster  在冰面上加的速度&#xa;+ now_faster_time  加速食物计时器&#xa;+ faster_time  加速食物时间&#xa;+ is_faster  是否加速&#xa;+ now_strong_time  强壮食物计时器&#xa;+ strong_time  强壮食物时间&#xa;+ is_strong  是否强壮&#xa;+ now_shot_faster_time  射速加速食物计时器&#xa;+ shot_faster_time  射速食物时间&#xa;+ is_shot_faster  是否射速加速&#xa;+ now_board_time  渡河食物计时器&#xa;+ board_time  渡河食物时间&#xa;+ is_board  是否能够渡河&#xa;+ now_cover_time  保护罩食物计时器&#xa;+ cover_time  保护罩食物时间&#xa;+ cover_level  是否有保护罩" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-1">
+          <mxGeometry y="26" width="340" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-1">
+          <mxGeometry y="430" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-4" value="+ collide()  坦克碰撞&#xa;+ smooth_collide()  坦克与墙体的平滑碰撞）&#xa;+ reset_collide_wall()  重置与墙体碰撞时的坦克位置&#xa;+ eat()  拾取食物&#xa;+ fire()  开火&#xa;+ delay_faster()  加速食物延时&#xa;+ delay_strong()  强壮食物延时&#xa;+ delay_shot_faster()  射速加速食物延时&#xa;+ delay_board()  渡河食物延时&#xa;+ delay_cover()  保护罩食物延时&#xa;+ food_delay()   食物延时" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-1">
+          <mxGeometry y="438" width="340" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-5" value="Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="567" y="150" width="260" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-6" value="+ all_images  存放玩家所有等级的贴图&#xa;+ images  存放玩家当前等级的贴图&#xa;+ image  存放玩家当前的贴图&#xa;+ speed  速度&#xa;+ HP  血量&#xa;+ is_move  是否移动&#xa;+ player_index  P1/P2&#xa;+ score  分数&#xa;+ enemy_kill  杀敌数&#xa;+ bomb  追踪弹计时器&#xa;+ n_bomb  追踪弹数量&#xa;+ invincible_time  无敌保护罩时间&#xa;+ is_invincible  是否拥有无敌保护罩&#xa;+ now_invincible_time 无敌保护罩时间 &#xa;+ tree_music  是否正在触发树叶音效" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-5">
+          <mxGeometry y="26" width="260" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-5">
+          <mxGeometry y="290" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-8" value="+ move()  移动&#xa;+ updates()  更新移动贴图&#xa;+ upgrade()  升级&#xa;+ kills()  死亡&#xa;+ be_saved()  被复活&#xa;+ invincible()  无敌保护罩延时&#xa;+ reduce_hp()  扣血&#xa;+ tracking_bomb()  发射追踪弹&#xa;+ create_mini_tank()  生成小坦克" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-5">
+          <mxGeometry y="298" width="260" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-9" value="Enemy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-10" value="+ all_images  存放敌人所有等级的贴图&#xa;+ images  存放敌人当前等级的贴图&#xa;+ image  存放敌人当前的贴图&#xa;+ initial_level  敌人初始等级&#xa;+ level  敌人当前等级&#xa;+ enemy_type  敌人类型&#xa;+ speed  速度&#xa;+ initial_HP  最初血量&#xa;+ HP  血量&#xa;+ score  分数&#xa;+ move_time  强制变换方向计时器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-9">
+          <mxGeometry y="26" width="260" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-9">
+          <mxGeometry y="220" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-12" value="+ move()  移动&#xa;+ reduce_hp()  扣血" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-9">
+          <mxGeometry y="228" width="260" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-13" value="MiniTank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="440" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-14" value="+ images  存放小坦克的贴图&#xa;+ image  存放小坦克当前的贴图&#xa;+ speed  速度&#xa;+ move_time  强制变换方向计时器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
+          <mxGeometry y="26" width="260" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
+          <mxGeometry y="100" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-16" value="+ move()  移动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
+          <mxGeometry y="108" width="260" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
