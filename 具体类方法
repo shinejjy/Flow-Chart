@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T13:18:19.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="WCTuP42j6IW9vr_2iHZH" type="github"><diagram id="GpVNGzK67jAFbiokCJwk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T13:41:50.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="eoQEQmNNtIzE7bxICRE3" type="github">
+  <diagram id="B7AmW816VZ4LwCcKILpb" name="第 1 页">
+    <mxGraphModel dx="942" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AWzXwd7nASHG7T2Hem0z-3" value="Game" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="270" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzXwd7nASHG7T2Hem0z-4" value="+ width &#xa;+ height&#xa;+ Maps&#xa;+ unit&#xa;+ fclock&#xa;+ screen&#xa;+ size&#xa;+ my_font" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=14;" vertex="1" parent="AWzXwd7nASHG7T2Hem0z-3">
+          <mxGeometry y="26" width="270" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzXwd7nASHG7T2Hem0z-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="AWzXwd7nASHG7T2Hem0z-3">
+          <mxGeometry y="170" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzXwd7nASHG7T2Hem0z-6" value="+ init_game()&#xa;+ init_map()&#xa;+ loading_movie()&#xa;+ lose_stage()&#xa;+ win_stage()&#xa;+ sprites_run()&#xa;+ select_level_menu()&#xa;+ enemy_menu()&#xa;+ food_menu()&#xa;+ player_menu()&#xa;+ help_menu()&#xa;+ esc_menu()&#xa;+ run_game()&#xa;+ show_game()&#xa;+ pause_game()&#xa;+ main_menu()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="AWzXwd7nASHG7T2Hem0z-3">
+          <mxGeometry y="178" width="270" height="282" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
