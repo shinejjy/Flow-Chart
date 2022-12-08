@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T16:14:29.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.1" etag="WL4Q1MoKtUZ6vuAoJHIC" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-08T16:32:51.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.1" etag="q2_qPdDMwjrk8DW0Wi-N" type="github">
   <diagram id="EKAWYOUytsTi9JNAZNzG" name="第 1 页">
     <mxGraphModel dx="1346" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,16 +41,16 @@
           <mxGeometry y="228" width="260" height="42" as="geometry" />
         </mxCell>
         <mxCell id="ogBkBNcGwWRkmcyde_T6-13" value="MiniTank" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="850" y="440" width="260" height="140" as="geometry" />
+          <mxGeometry x="850" y="440" width="260" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ogBkBNcGwWRkmcyde_T6-14" value="+ images  存放小坦克的贴图&#xa;+ image  存放小坦克当前的贴图&#xa;+ speed  速度&#xa;+ move_time  强制变换方向计时器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
-          <mxGeometry y="26" width="260" height="74" as="geometry" />
+        <mxCell id="ogBkBNcGwWRkmcyde_T6-14" value="+ images  存放小坦克的贴图&#xa;+ image  存放小坦克当前的贴图&#xa;+ speed  速度&#xa;+ move_time  强制变换方向计时器&#xa;+ father_tank  父亲坦克" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
+          <mxGeometry y="26" width="260" height="94" as="geometry" />
         </mxCell>
         <mxCell id="ogBkBNcGwWRkmcyde_T6-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
-          <mxGeometry y="100" width="260" height="8" as="geometry" />
+          <mxGeometry y="120" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="ogBkBNcGwWRkmcyde_T6-16" value="+ move()  移动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="ogBkBNcGwWRkmcyde_T6-13">
-          <mxGeometry y="108" width="260" height="32" as="geometry" />
+          <mxGeometry y="128" width="260" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
