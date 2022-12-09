@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T06:47:41.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="lprsVZZJy5x7d1W_nvaB" type="github"><diagram id="2nEqRBf-I3to3rD0DP6B">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-09T07:04:24.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="zrjaZeBg7CfgJUXtGsVL" type="github">
+  <diagram id="NfmUwxf24UyhNG9SSv-h" name="第 1 页">
+    <mxGraphModel dx="1182" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-1" value="访客" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-2" value="内部人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vgWyb1k3Y3noLg5VqPXq-3" target="vgWyb1k3Y3noLg5VqPXq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-3" value="摄像头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.417;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vgWyb1k3Y3noLg5VqPXq-1" target="vgWyb1k3Y3noLg5VqPXq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="370" as="sourcePoint" />
+            <mxPoint x="429" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-8" value="访客出入录像" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vgWyb1k3Y3noLg5VqPXq-6">
+          <mxGeometry x="-0.3139" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vgWyb1k3Y3noLg5VqPXq-2" target="vgWyb1k3Y3noLg5VqPXq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="290" as="sourcePoint" />
+            <mxPoint x="379" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-9" value="内部人员刷卡动作捕捉" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vgWyb1k3Y3noLg5VqPXq-7">
+          <mxGeometry x="-0.1836" y="-4" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-10" value="记录录像信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-12" value="黑白灰名单" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vgWyb1k3Y3noLg5VqPXq-10" target="vgWyb1k3Y3noLg5VqPXq-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-14" value="访客长时间滞留" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vgWyb1k3Y3noLg5VqPXq-13">
+          <mxGeometry x="0.1677" y="1" relative="1" as="geometry">
+            <mxPoint x="10" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-15" value="云存储系统" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="305" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vgWyb1k3Y3noLg5VqPXq-15" target="vgWyb1k3Y3noLg5VqPXq-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vgWyb1k3Y3noLg5VqPXq-17" value="录像信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vgWyb1k3Y3noLg5VqPXq-16">
+          <mxGeometry x="0.2308" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
