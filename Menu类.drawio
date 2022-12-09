@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T08:57:24.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="UP30JVO_5QY6NgqRatpM" type="github"><diagram id="7xZoBZOn7a62amhVJRIE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-09T09:24:49.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="9XNlZMEQjdFr-eTkCOf3" type="github">
+  <diagram id="8DtnB7zmGYynpieSERHf" name="第 1 页">
+    <mxGraphModel dx="1182" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H8aR95Davd8N8Kwo08VS-1" value="Text" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="290" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-2" value="+ image(text, color, font, scale)  文字贴图&#xa;+ position  文字位置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-1">
+          <mxGeometry y="26" width="290" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H8aR95Davd8N8Kwo08VS-1">
+          <mxGeometry y="70" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-4" value="+ draw()  显示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-1">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-5" value="Image" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="290" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-6" value="+ image(scale)  图像贴图&#xa;+ position  图像位置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-5">
+          <mxGeometry y="26" width="290" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H8aR95Davd8N8Kwo08VS-5">
+          <mxGeometry y="70" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-8" value="+ draw()  显示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-5">
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-9" value="Gif" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="290" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-10" value="+ images  动图贴图列表&#xa;+ position  动图位置&#xa;+ index  动图播放的索引&#xa;+ len  动图贴图长度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-9">
+          <mxGeometry y="26" width="290" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H8aR95Davd8N8Kwo08VS-9">
+          <mxGeometry y="100" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-12" value="+ draw()  显示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-9">
+          <mxGeometry y="108" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-13" value="DisplayButton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="250" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-14" value="+ image  显示控件的贴图&#xa;+ rect  显示控件的碰撞体&#xa;+ content  显示控件需要显示的内容&#xa;+ stay_time  显示控件鼠标停留计时器&#xa;+ stay  显示控件鼠标是否一直停留" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-13">
+          <mxGeometry y="26" width="250" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H8aR95Davd8N8Kwo08VS-13">
+          <mxGeometry y="120" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-16" value="+ draw()  显示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-13">
+          <mxGeometry y="128" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-18" value="Button" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="250" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-19" value="+ image  按钮的贴图&#xa;+ rect  按钮的碰撞体&#xa;+ clicked  是否被点击&#xa;+ event  按钮事件&#xa;+ bk_color  背景&#xa;+ effect  效果（鼠标滑过是否有效果）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-18">
+          <mxGeometry y="26" width="250" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H8aR95Davd8N8Kwo08VS-18">
+          <mxGeometry y="140" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-21" value="+ draw()  显示" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-18">
+          <mxGeometry y="148" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-22" value="Menu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-23" value="+ bk_image  背景图片&#xa;+ button_group  按钮组&#xa;+ display_button_group  显示控件组&#xa;+ text_group  文本组&#xa;+ image_group  图片组&#xa;+ gif_group  动图组" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-22">
+          <mxGeometry y="26" width="280" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H8aR95Davd8N8Kwo08VS-22">
+          <mxGeometry y="140" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="H8aR95Davd8N8Kwo08VS-25" value="+ draw()  显示&#xa;+ add_text()  增加文本&#xa;+ add_image()  增加图片&#xa;+ add_gif()  增加动图&#xa;+ add_button()  增加按钮&#xa;+ add_display_button()  增加显示控件&#xa;+ clear_text()  清除文本组&#xa;+ clear_image()  清除图片组&#xa;+ clear_gif()  清除动图组&#xa;+ clear_button()  清除按钮组&#xa;+ clear_display_button()  清除显示控件组&#xa;+ clear_all()  清除所有组&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;fontStyle=1" vertex="1" parent="H8aR95Davd8N8Kwo08VS-22">
+          <mxGeometry y="148" width="280" height="212" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
