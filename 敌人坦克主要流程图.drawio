@@ -1,1 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T12:50:04.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="n7TlQqWQIAzwhJauaku5" type="github"><diagram id="ooKzfsVUGaIMJre3-ohe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-11T13:03:08.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="09gHguLfpwsxMTdYnXUi" type="github">
+  <diagram id="5KkhYrqGKsIE-rkeW7u1" name="第 1 页">
+    <mxGraphModel dx="1752" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-2" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-3" target="G6aI-7wmC-rhmjJPQnPU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-3" target="G6aI-7wmC-rhmjJPQnPU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="270" />
+              <mxPoint x="1040" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-3" value="强制转向计时器是否刷新？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="230" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-4" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-6" target="G6aI-7wmC-rhmjJPQnPU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-5" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-6" target="G6aI-7wmC-rhmjJPQnPU-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-6" value="开火计时器是否刷新？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-7" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-9" target="G6aI-7wmC-rhmjJPQnPU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-8" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-9" target="G6aI-7wmC-rhmjJPQnPU-13">
+          <mxGeometry x="-0.6842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-9" value="移动后的坦克位置是否与有碰撞体的物体发生碰撞？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-11" target="G6aI-7wmC-rhmjJPQnPU-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1500" y="510" />
+              <mxPoint x="1500" y="190" />
+              <mxPoint x="30" y="190" />
+              <mxPoint x="30" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-11" value="与可碰撞体的发生平滑接触" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-13" target="G6aI-7wmC-rhmjJPQnPU-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1500" y="620" />
+              <mxPoint x="1500" y="190" />
+              <mxPoint x="30" y="190" />
+              <mxPoint x="30" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-13" value="更新坦克位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-15" target="G6aI-7wmC-rhmjJPQnPU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="470" />
+              <mxPoint x="1040" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-15" value="对应每一个方向，在坦克相应位置生成一个子弹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-23" target="G6aI-7wmC-rhmjJPQnPU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-23" value="显示敌人坦克贴图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-27" target="G6aI-7wmC-rhmjJPQnPU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="970" />
+              <mxPoint x="1040" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-27" value="无事件发生" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="930" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-28" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-30" target="G6aI-7wmC-rhmjJPQnPU-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-29" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-30" target="G6aI-7wmC-rhmjJPQnPU-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-30" value="是否被攻击？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-46" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-34" target="G6aI-7wmC-rhmjJPQnPU-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-55" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-34" target="G6aI-7wmC-rhmjJPQnPU-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-34" value="是否只剩一点血量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-35" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-37" target="G6aI-7wmC-rhmjJPQnPU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-36" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-37" target="G6aI-7wmC-rhmjJPQnPU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-37" value="是否与食物发生碰撞？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-38" target="G6aI-7wmC-rhmjJPQnPU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="830" />
+              <mxPoint x="1040" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-38" value="产生相应的食物效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-50" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-45" target="G6aI-7wmC-rhmjJPQnPU-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-57" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-45" target="G6aI-7wmC-rhmjJPQnPU-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-45" value="是否是最低等级？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-49" target="G6aI-7wmC-rhmjJPQnPU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-49" value="降级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="650" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G6aI-7wmC-rhmjJPQnPU-54" target="G6aI-7wmC-rhmjJPQnPU-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="760" />
+              <mxPoint x="1040" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-54" value="扣血" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="730" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G6aI-7wmC-rhmjJPQnPU-56" value="死亡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="530" width="70" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
