@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T12:49:41.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="5VlaYFmMGNDq3KsMNV2q" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T12:53:55.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="B6BR8LXr0Zin6c0t69hb" type="github">
   <diagram id="KU4oBASR8fWlXSOlD7Sd" name="第 1 页">
-    <mxGraphModel dx="876" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,10 +142,11 @@
         <mxCell id="wbwgNUahIv1PS7DeJPXF-37" value="是否被攻击？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="760" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wbwgNUahIv1PS7DeJPXF-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-42" target="wbwgNUahIv1PS7DeJPXF-20">
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-64" target="wbwgNUahIv1PS7DeJPXF-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="590" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="880" y="800" />
               <mxPoint x="980" y="800" />
               <mxPoint x="980" y="100" />
               <mxPoint x="60" y="100" />
@@ -155,13 +156,16 @@
         </mxCell>
         <mxCell id="wbwgNUahIv1PS7DeJPXF-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wbwgNUahIv1PS7DeJPXF-47">
           <mxGeometry x="-0.9177" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wbwgNUahIv1PS7DeJPXF-56" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-42" target="wbwgNUahIv1PS7DeJPXF-55">
           <mxGeometry x="0.3337" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-42" target="wbwgNUahIv1PS7DeJPXF-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wbwgNUahIv1PS7DeJPXF-42" value="是否只剩一点血量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="760" width="140" height="80" as="geometry" />
@@ -182,13 +186,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wbwgNUahIv1PS7DeJPXF-55" value="死亡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="840" width="80" height="40" as="geometry" />
+          <mxGeometry x="675.03" y="869.95" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wbwgNUahIv1PS7DeJPXF-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-58" target="wbwgNUahIv1PS7DeJPXF-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="760" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="980" y="860" />
+              <mxPoint x="980" y="890" />
               <mxPoint x="980" y="100" />
               <mxPoint x="60" y="100" />
               <mxPoint x="60" y="720" />
@@ -201,7 +205,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wbwgNUahIv1PS7DeJPXF-58" value="是否被救活？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="820" width="100" height="80" as="geometry" />
+          <mxGeometry x="805.03" y="849.95" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-64" value="扣血" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
