@@ -1,1 +1,209 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T12:24:23.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="Xgn7VR0B1ZdUNamUVkG6" type="github"><diagram id="K2K2rTRF-LIP6anWfKrO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-11T12:49:41.658Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="5VlaYFmMGNDq3KsMNV2q" type="github">
+  <diagram id="KU4oBASR8fWlXSOlD7Sd" name="第 1 页">
+    <mxGraphModel dx="876" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-10" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-2" target="wbwgNUahIv1PS7DeJPXF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-38" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-2" target="wbwgNUahIv1PS7DeJPXF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-2" value="是否按下移动按键？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-16" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-4" target="wbwgNUahIv1PS7DeJPXF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-39" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-4" target="wbwgNUahIv1PS7DeJPXF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-4" value="是否按下开火按键？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-9" target="wbwgNUahIv1PS7DeJPXF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-14" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-9" target="wbwgNUahIv1PS7DeJPXF-13">
+          <mxGeometry x="-0.6842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-9" value="移动后的坦克位置是否与有碰撞体的物体发生碰撞？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-11" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="270" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-11" value="与可碰撞体的发生平滑接触" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-13" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="380" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-13" value="更新坦克位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-15" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="470" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-15" value="对应每一个方向，在坦克相应位置生成一个子弹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-19" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-17" target="wbwgNUahIv1PS7DeJPXF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-40" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-17" target="wbwgNUahIv1PS7DeJPXF-37">
+          <mxGeometry x="-0.4737" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-17" value="是否按下追踪弹按键？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="585" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-28" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-18" target="wbwgNUahIv1PS7DeJPXF-21">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-46" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-18" target="wbwgNUahIv1PS7DeJPXF-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="720" />
+              <mxPoint x="400" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-18" value="是否按下追踪弹按键？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="585" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-20" target="wbwgNUahIv1PS7DeJPXF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-20" value="显示玩家坦克贴图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-21" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="625" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-21" value="对应每一个方向，在坦克相应位置生成一个追踪弹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-23" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="1090" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-23" value="无事件发生" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1050" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-43" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-37" target="wbwgNUahIv1PS7DeJPXF-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-51" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-37" target="wbwgNUahIv1PS7DeJPXF-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-37" value="是否被攻击？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="760" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-42" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="800" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wbwgNUahIv1PS7DeJPXF-47">
+          <mxGeometry x="-0.9177" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-56" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-42" target="wbwgNUahIv1PS7DeJPXF-55">
+          <mxGeometry x="0.3337" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-42" value="是否只剩一点血量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="760" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-52" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-50" target="wbwgNUahIv1PS7DeJPXF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-54" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-50" target="wbwgNUahIv1PS7DeJPXF-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-50" value="是否与食物发生碰撞？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="910" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-53" value="产生相应的食物效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-55" target="wbwgNUahIv1PS7DeJPXF-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-55" value="死亡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbwgNUahIv1PS7DeJPXF-58" target="wbwgNUahIv1PS7DeJPXF-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="860" />
+              <mxPoint x="980" y="100" />
+              <mxPoint x="60" y="100" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-62" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wbwgNUahIv1PS7DeJPXF-60">
+          <mxGeometry x="-0.9517" y="-2" relative="1" as="geometry">
+            <mxPoint x="-32" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbwgNUahIv1PS7DeJPXF-58" value="是否被救活？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="820" width="100" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
