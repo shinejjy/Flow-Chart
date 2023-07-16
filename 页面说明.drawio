@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T11:51:49.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AYZ8cusoWWHXQPlecKKy" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-16T11:52:10.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xI_A4qig7TFUTfjo2nLc" version="21.6.2" type="github">
   <diagram name="第 1 页" id="0Yfzo06Rg9hAzA8gX3MO">
     <mxGraphModel dx="2571" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,6 +168,9 @@
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-17" value="&lt;font color=&quot;#ff0000&quot;&gt;基本信息页面需要包含用户的各种基本信息，并且需要支持更换头像操作等等。其他页面待定&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="660" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-18" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;注册页面&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="980" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
