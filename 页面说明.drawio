@@ -1,9 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T03:20:50.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.2" etag="Fh7XhqhDv0YUkHLR1GhU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-16T03:43:34.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3S7-AiyNAFDPZGvDS6Af" version="21.6.2" type="github">
   <diagram name="第 1 页" id="0Yfzo06Rg9hAzA8gX3MO">
-    <mxGraphModel>
+    <mxGraphModel dx="2048" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="690" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="110" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="470" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-7" value="视频播放器（应支持GIF）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="190" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-8" value="视频生成进度条" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="350" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-11" value="&lt;font style=&quot;font-size: 1px;&quot;&gt;LOGO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="85" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-13" value="&lt;font style=&quot;font-size: 1px;&quot;&gt;充值&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="85" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-14" value="&lt;span style=&quot;font-size: 1px;&quot;&gt;余额&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="85" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-15" value="&lt;span style=&quot;font-size: 1px;&quot;&gt;注册/登录&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="85" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-16" value="尺寸" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="130" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-22">
+          <mxGeometry width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-22">
+          <mxGeometry x="40" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-20" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-22">
+          <mxGeometry x="42.5" y="2.5" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-23" value="风格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="170" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-24">
+          <mxGeometry width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-24">
+          <mxGeometry x="40" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-27" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-24">
+          <mxGeometry x="42.5" y="2.5" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-28" value="文本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-29" value="（文本框）" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-30" value="图片" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-32" value="&lt;p&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;上传&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="357.5" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-33" value="高级设置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/user-interface-169/32/plus-128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="406" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-35" value="&lt;font color=&quot;#ff0000&quot;&gt;（点开加号可以展开高级设置）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="424" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-36" value="&lt;font color=&quot;#ff0000&quot;&gt;余额显示还剩多少积分（开局赠送若干积分），充值按钮可以充值获得积分（汇率待定），注册/登录后方可进行生成视频&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="10" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-37" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;尺寸下拉框和帧长下拉框应为具体模型所支持的有限的大小，风格为多种类型的视频，文本框中输入文本提示用于输出视频，图片是可选项，用于约束视频生成。普通玩家到这结束，高级设置面向的群体小，点击➕按钮展开，具体细节参考TuneAVideo&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="130" width="110" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-38" value="帧长" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="130" y="150" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-39">
+          <mxGeometry width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-41" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-39">
+          <mxGeometry x="40" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-42" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="ZgjSSMT6cTCHtLDz8DOs-39">
+          <mxGeometry x="42.5" y="2.5" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-44" value="视频生成区域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="160" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgjSSMT6cTCHtLDz8DOs-45" value="&lt;font color=&quot;#ff0000&quot;&gt;视频生成区域的视频播放器应当支持包括GIF的视频，视频生成进度条应该与模型中的视频生成进度相关联。（希望后续加入页面滚动条来记录历史记录，增加用户体验）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="180" height="172" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
