@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T12:06:51.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OmNgH2QcvHZ34d4vtX28" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-16T12:54:34.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J1jD3addfacz_e_ImUAF" version="21.6.2" type="github">
   <diagram name="第 1 页" id="0Yfzo06Rg9hAzA8gX3MO">
-    <mxGraphModel dx="1525" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,7 +181,7 @@
         <mxCell id="XpuTqxb-VDtBdwR817ZW-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="1145" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="XpuTqxb-VDtBdwR817ZW-23" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-23" value="二维码" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="280" y="1170" width="111.5" height="111.5" as="geometry" />
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-22" target="XpuTqxb-VDtBdwR817ZW-22">
@@ -200,19 +200,138 @@
           <mxGeometry x="300" y="1150" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1180" width="120" height="21" as="geometry" />
+          <mxGeometry x="470" y="1182" width="120" height="21" as="geometry" />
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-30" value="账号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1176" width="60" height="30" as="geometry" />
+          <mxGeometry x="420" y="1178" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-31" value="密码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1211" width="60" height="30" as="geometry" />
+          <mxGeometry x="420" y="1213" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1215.25" width="120" height="21" as="geometry" />
+          <mxGeometry x="470" y="1217.25" width="120" height="21" as="geometry" />
         </mxCell>
         <mxCell id="XpuTqxb-VDtBdwR817ZW-33" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px;&quot;&gt;没有账号？点击注册&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1241" width="120" height="19" as="geometry" />
+          <mxGeometry x="470" y="1250" width="120" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-36" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1280" width="50" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1510" width="690" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247" y="1590" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1615" width="187" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-40" value="邮箱/手机号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1610" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-41" value="验证码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1754" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1759" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-43" value="校验码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="1650" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-46" value="看不清，换一个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="1650" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-47" value="获取验证码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1761" width="70" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-48" value="注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1790" width="70" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-50" value="&lt;font color=&quot;#ff0000&quot;&gt;先出现登录页面&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontColor=#ff0000;strokeColor=#ff0000;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1130" as="sourcePoint" />
+            <mxPoint x="350" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-55" value="&lt;font color=&quot;#ff0000&quot;&gt;显示允许扫码登录的登陆方式（QQ，微信）要点击对应图标按钮可以切换对应的二维码&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="980" width="168.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-56" value="&lt;font color=&quot;#ff0000&quot;&gt;二维码展示，扫码后要进行交互（显示已扫码，请确认登陆...）等&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1187" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-56" target="XpuTqxb-VDtBdwR817ZW-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1130" as="sourcePoint" />
+            <mxPoint x="300" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-58" value="显示在这里" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpuTqxb-VDtBdwR817ZW-57">
+          <mxGeometry x="0.3754" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-59" value="&lt;font color=&quot;#ff0000&quot;&gt;点击注册蓝色字体，可以跳转到注册页面&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1239" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-60" value="&lt;font color=&quot;#ff0000&quot;&gt;登录按钮跳转到已登录的主页面&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.385;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-60" target="XpuTqxb-VDtBdwR817ZW-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1350" as="sourcePoint" />
+            <mxPoint x="560" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-62" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-59" target="XpuTqxb-VDtBdwR817ZW-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1220" as="sourcePoint" />
+            <mxPoint x="710" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-63" value="&lt;font color=&quot;#ff0000&quot;&gt;通过登陆页面跳转&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="173" y="1470" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-64" value="&lt;font color=&quot;#ff0000&quot;&gt;接收文本框输入之后要判断一下是邮箱还是手机号，发送对应验证码&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1540" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-65" value="密码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1688" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="1693" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="1725" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-70" value="确认密码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-71" value="&lt;font color=&quot;#ff0000&quot;&gt;校验码为随机数字图片验证码&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1640" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-71" target="XpuTqxb-VDtBdwR817ZW-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1760" as="sourcePoint" />
+            <mxPoint x="400" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-75" value="&lt;font color=&quot;#ff0000&quot;&gt;验证码为手机/邮箱验证码，要点击获取验证码按钮之后发送，10分钟内有效&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="223.25" y="1850" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.424;exitY=-0.051;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XpuTqxb-VDtBdwR817ZW-75" target="XpuTqxb-VDtBdwR817ZW-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1760" as="sourcePoint" />
+            <mxPoint x="400" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpuTqxb-VDtBdwR817ZW-77" value="&lt;font color=&quot;#ff0000&quot;&gt;注册成功显示一个小窗口提示注册成功并跳转登陆界面&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1850" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
